@@ -1,0 +1,5 @@
+package com.blogapp.repositories;
+
+public class PostRepo {
+
+}

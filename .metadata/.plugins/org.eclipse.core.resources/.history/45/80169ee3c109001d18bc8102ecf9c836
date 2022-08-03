@@ -1,0 +1,22 @@
+package com.blogapp.payloads;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+import com.blogapp.entity.Category;
+import com.blogapp.entity.User;
+
+public class PostDto {
+	
+	
+	private String title;
+	
+	
+	private String content;
+
+	
+	
+}

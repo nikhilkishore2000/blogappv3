@@ -1,0 +1,62 @@
+package com.blogapp.services.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.blogapp.entity.Post;
+import com.blogapp.payloads.PostDto;
+import com.blogapp.services.PostService;
+
+@Service
+public class PostServiceImpl implements PostService {
+
+	@Override
+	public Post createPost(PostDto postDto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Post updatePost(PostDto postDto, Integer postId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletePost(Integer postId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Post> getAllPost() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Post getPostByID(Integer postId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Post> getPostsByCategory(Integer categoryId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Post> getPostsByUser(Integer userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Post> searchPosts(String Keyword) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

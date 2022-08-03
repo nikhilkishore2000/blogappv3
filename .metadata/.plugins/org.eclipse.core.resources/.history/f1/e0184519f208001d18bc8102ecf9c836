@@ -1,0 +1,5 @@
+package com.blogapp.entity;
+
+public class Post {
+
+}

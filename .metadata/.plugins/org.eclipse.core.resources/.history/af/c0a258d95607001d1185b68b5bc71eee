@@ -1,0 +1,5 @@
+package com.blogapp.services.impl;
+
+public class UserServiceImpl {
+
+}
